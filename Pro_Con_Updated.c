@@ -65,8 +65,7 @@ int get(struct prodcons * b)
     return data;
 }
 
-/* A test program: one thread inserts integers from 1 to 10000,
-   the other reads them and prints them. */
+
 
 #define OVER (-1)
 
@@ -77,11 +76,11 @@ void * producer(void * data)
     int n,i=0;
     char arr[BUFFER_SIZE];
     FILE *file;
-    file = fopen("readex.txt","r");
+    file = fopen("readex.txt","r"); //read this file
     while(fscanf(file,"%s",arr)!= EOF){
         
         printf("%s --->\n",arr);
-        n = atoi(arr);
+        n = atoi(arr); //convert char array to int array
         put(&buffer,n);
         i++;
     }
@@ -99,8 +98,8 @@ void * consumer(void * data)
     while (1) {
         d = get(&buffer);
         if (d == OVER) break;
-        printf("---> %d\n", d);
-        fprintf(file,"%d ",d);
+        printf("---> %d\n", d); // print to screen
+        fprintf(file,"%d ",d); // write numbers to writeex ftext file
 //          fwrite(&file, sizeof(int),16,d);
     }
     return NULL;
