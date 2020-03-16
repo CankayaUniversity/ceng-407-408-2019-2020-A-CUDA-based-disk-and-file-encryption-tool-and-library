@@ -1,7 +1,3 @@
-/* The classic producer-consumer example.
-   Illustrates mutexes and conditions.
-   All integers between 0 and 9999 should be printed exactly twice,
-   once to the right of the arrow and once to the left. */
 
 #include <stdio.h>
 #include "pthread.h"
