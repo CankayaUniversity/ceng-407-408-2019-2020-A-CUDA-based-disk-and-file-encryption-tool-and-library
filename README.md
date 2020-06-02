@@ -6,13 +6,13 @@ A CUDA Based AES-256-CTR File Encryption is a project. We use PC's CPU and GPU f
 ## Getting Started
 For install our project:
 
-1. https://github.com/CankayaUniversity/ceng-407-408-2019-2020-A-CUDA-based-disk-and-file-encryption-tool-and-library.git
-  With this link go to our project main page.
+1.  With this link go to our project main page. 
+https://github.com/CankayaUniversity/ceng-407-408-2019-2020-A-CUDA-based-disk-and-file-encryption-tool-and-library.git
  
 2. Click Clone Or Download option. Then select Download Zip option and extract the zip file.
 3. The project can only run on linux operating system.
 4. You need to install Nvidia Cuda on your computer for running the project.
- -wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
+ - wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
  - sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
  - sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
  - sudo add-apt-repository "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/ /"
