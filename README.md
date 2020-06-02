@@ -11,7 +11,7 @@ For install our project:
  
 2. Click Clone Or Download option. Then select Download Zip option and extract the zip file.
 3. The project can only run on linux operating system.
-4. You need to install Nvidia Cuda on your computer for running the project.
+4. You need to install Nvidia Cuda on your computer for running the project.  You can install CUDA on your computer by running the following codes in the terminal.
  - wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
  - sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
  - sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
