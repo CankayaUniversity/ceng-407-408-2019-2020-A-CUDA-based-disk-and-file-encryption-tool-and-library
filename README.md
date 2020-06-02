@@ -19,4 +19,4 @@ For install our project:
  - sudo apt-get update
  - sudo apt-get -y install cuda
 5. Then you need to create a text file for input,a text file for key and an text file for output to run the project.
-6. You can open the folder and can run .c and .cu files on the terminal or Nvidia NSight Eclipse Program for encryption your files.
+6. You can open the folder and can run .cu file on the terminal or Nvidia NSight Eclipse Program for encryption your files.
