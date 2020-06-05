@@ -1,7 +1,7 @@
 # A CUDA Based AES CTR Mode File Encryption Tool
 
 
-A CUDA Based AES-256-CTR File Encryption is a project. We use PC's CPU and GPU for speed. It encrypts and decrypts in CPU or GPU according to file size. And your files will be securely encrypted and decrypted with the AES algorithm and CTR mode. With our project users can encrypt/decrypt their files faster from other encryption/decryption libraries/projects.
+A CUDA Based AES-CTR File Encryption is a project. We use PC's CPU and GPU for speed. It encrypts and decrypts in CPU or GPU according to file size. And your files will be securely encrypted and decrypted with the AES algorithm and CTR mode. With our project users can encrypt/decrypt their files faster from other encryption/decryption libraries/projects.
 
 ## Getting Started
 For install our project:
